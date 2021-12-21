@@ -2,9 +2,13 @@
 
 exports[`Loading component renders Loading 1`] = `
 <DocumentFragment>
-  <img
-    alt="Loading"
-    src="https://media0.giphy.com/media/VJCSpN9VaG7K4p3CUj/source.gif"
-  />
+  <div
+    class="Loading"
+  >
+    <img
+      alt="Loading"
+      src="https://media0.giphy.com/media/VJCSpN9VaG7K4p3CUj/source.gif"
+    />
+  </div>
 </DocumentFragment>
 `;

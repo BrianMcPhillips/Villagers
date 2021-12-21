@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VillagerItem component renders VillagerItem 1`] = `
+<DocumentFragment>
+  <div
+    class="Villager"
+  >
+    <figure>
+      <img
+        alt="Sir Nick Cage"
+        src="https://placeCage.com/200/200"
+      />
+      <figcaption>
+        Sir Nick Cage
+      </figcaption>
+    </figure>
+  </div>
+</DocumentFragment>
+`;
