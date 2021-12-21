@@ -2,6 +2,8 @@
 
 exports[`VillagerList component Renders a Villager List 1`] = `
 <DocumentFragment>
-  <ul />
+  <ul
+    class="List"
+  />
 </DocumentFragment>
 `;

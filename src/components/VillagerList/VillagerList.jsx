@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import VillagerItem from '../VillagerItem/VillagerItem';
+import styles from './VillagerList.module.css';
 
 const VillagerList = ({ villagers }) => {
   const villagerElements = villagers.map(villager => {
@@ -10,7 +11,7 @@ const VillagerList = ({ villagers }) => {
   });
 
   return (
-    <ul>
+    <ul className={styles.List}>
       {villagerElements}
     </ul>
   );

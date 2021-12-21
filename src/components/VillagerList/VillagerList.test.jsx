@@ -16,7 +16,7 @@ describe('VillagerList component', () => {
           name: 'Nicholas Cage',
           imageUrl: 'https://placecage.com/200/200',
           _id: 'jdjsuej23451jdj928'
-        },
+        }
       ]}
     />);
 
