@@ -1,0 +1,7 @@
+.Loading {
+  img {
+    display: block;
+    margin: auto;
+    max-width: 20rem;
+  }
+}
