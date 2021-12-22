@@ -6,12 +6,12 @@ import styles from './VillagerList.module.css';
 const VillagerList = ({ villagers }) => {
   const villagerElements = villagers.map(villager => {
     <li key={villager._id}>
-      <VillagerItem name={villager.name} imageUrl={villager.imageUrl} />
+      <VillagerItem {...villager} />
     </li>
   });
 
   return (
-    <ul className={styles.List}>
+    <ul className={styles.List} data-testid="villagers">
       {villagerElements}
     </ul>
   );

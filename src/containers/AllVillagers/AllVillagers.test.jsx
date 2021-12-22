@@ -7,6 +7,11 @@ describe('AllVillagers component', () => {
     render(<AllVillagers />);
 
     screen.getByAltText('Loading');
+  });
 
+  it('displays a list of villagers', async() => {
+    render(<AllVillagers />);
+
+    const villagerList = await screen.findByTestId('villagers');
   });
 });
